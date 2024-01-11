@@ -15,6 +15,7 @@
 ## Инструкции по запуску
 
  Зайти в Kaggle по ссылке [здесь](https://www.kaggle.com/code/gtrrf2310/fork-of-pred-mach-main-analysis?scriptVersionId=158592354).
+ Если по какой-то причине ссылка не работает, в соревновании [Kaggle](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification) лежит файл в разделе Code в открытом доступе. Имя файла "Fork of Pred-mach-main analysis".
 
 ## Цель лабораторной работы
 
