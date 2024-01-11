@@ -12,13 +12,9 @@
 - matplotlib
 - scikit-learn
 
-## Инструкции по Установке и Запуску
+## Инструкции по запуску
 
-1. Зайти на соревнование в Kaggle по ссылке [Machine Predictive Maintenance Classification](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
-2. Запустите Nеw Notebook на соревнование в Kaggle.
-3. Скачать файл с кодом, находящийся в репозитории.
-4. После создания новой тетради, выбрать "File"-"Import File", и найти скачанный файл ранее.
-5. Запустить код в Каггле, и проверить результаты выполнения кода.
+ Зайти в Kaggle по ссылке [здесь](https://www.kaggle.com/code/gtrrf2310/fork-of-pred-mach-main-analysis?scriptVersionId=158592354).
 
 ## Цель лабораторной работы
 
