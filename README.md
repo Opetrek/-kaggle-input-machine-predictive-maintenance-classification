@@ -1,7 +1,7 @@
 # Тема лабораторной работы "Создание системы для автоматической диагностики технических неисправностей на основе данных технического обслуживания"
 
 Данный проект посвящен созданию системы для автоматической диагностики технических неисправностей на основе данных технического обслуживания.
-В качестве исходных данных используется датасет с соревнования Kaggle [Machine Predictive Maintenance Classification]([http://www.example.com](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification).
+В качестве исходных данных используется датасет с соревнования Kaggle [Machine Predictive Maintenance Classification]([http://www.example.com](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)).
 
 ## Структура Репозитория
 
