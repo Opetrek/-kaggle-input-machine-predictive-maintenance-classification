@@ -16,7 +16,7 @@
 
  Зайти в Kaggle по ссылке [здесь](https://www.kaggle.com/code/gtrrf2310/fork-of-pred-mach-main-analysis?scriptVersionId=158592354).
 
- [![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://www.kaggle.com/code/gtrrf2310/fork-of-pred-mach-main-analysis?scriptVersionId=158592354)
+ [![Colab](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/code/gtrrf2310/fork-of-pred-mach-main-analysis?scriptVersionId=158592354)
 
  Если по какой-то причине ссылка не работает, в соревновании [Kaggle](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification) в разделе Code мой файл есть в открытом доступе. 
  Имя файла "Fork of Pred-mach-main analysis".
