@@ -67,3 +67,42 @@
 
   Результат работы по переводу с английского на русский, после выполнения остальных запусков в коде
   ![Пример результата модели](https://github.com/Opetrek/Labwork1/blob/main/Lab-work2/%D0%9B%D0%B0%D0%B1.%D1%80%D0%B0%D0%B12%20-%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8%20%D0%B3%D1%83%D0%B3%D0%BB%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%87%D0%B8%D0%BA%D0%B0.png)
+
+### Система на основе встроенной библиотеки Google Translate.
+
+1. **Установка библиотеки:**
+   - Выполните команду установки с помощью pip:
+     ```bash
+     pip install googletrans==3.1.0a0
+     ```
+
+2. **Пример кода:**
+   - Вставьте следующий код в ваш проект:
+     ```python
+     from googletrans import Translator, constants
+     from pprint import pprint
+
+     # Инициализация объекта Translator
+     translator = Translator()
+     
+     # Пример использования
+     original_text = "Hello, how are you?"
+     destination_language = "es"
+     
+     # Перевод текста
+     translated_text = translator.translate(original_text, dest=destination_language).text
+     
+     # Вывод результата
+     pprint({
+         "Оригинальный текст": original_text,
+         "Переведенный текст": translated_text,
+         "Исходный язык": constants.LANGUAGES[translator.detect(original_text).lang],
+         "Целевой язык": constants.LANGUAGES[destination_language]
+     })
+     ```
+
+Так же я решил сравнить перевод от встроенной библиотеки Google Translate с использованной моделью.
+
+![Пример результата модели](https://github.com/Opetrek/Labwork1/blob/main/Lab-work2/%D0%9B%D0%B0%D0%B1.%D1%80%D0%B0%D0%B12%20-%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%B8%20%D0%B3%D1%83%D0%B3%D0%BB%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%87%D0%B8%D0%BA%D0%B0.png)
+
+Как видно, получились достаточно неплохой результат для предобученной модели по сравнению со встроенной библиотекой google translate.
