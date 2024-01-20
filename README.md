@@ -14,7 +14,7 @@
 
 ## Инструкции по запуску
 
- Зайти в Kaggle по ссылке [здесь](https://www.kaggle.com/code/gtrrf2310/fork-of-pred-mach-main-analysis?scriptVersionId=158592354).
+ Зайти в Kaggle по ссылке ниже.
 
  [![Colab](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/code/gtrrf2310/fork-of-pred-mach-main-analysis?scriptVersionId=158592354)
 
